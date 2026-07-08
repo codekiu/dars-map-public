@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DarsMap</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --emerald-900: #064E3B;
+  --emerald-700: #047857;
+  --emerald-100: #D1FAE5;
+  --sand-50: #FDFBF7;
+  --sand-200: #E8E0D0;
+  --ink-900: #1A1A1A;
+  --ink-700: #374151;
+  --ink-500: #6B7280;
+  --gold-500: #B8860B;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Noto Sans Arabic', 'Source Serif 4', Georgia, serif;
+  color: var(--ink-900);
+  background: var(--sand-50);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+}
+
+.page {
+  max-width: 480px;
+  width: 100%;
+  background: #fff;
+  border: 1px solid var(--sand-200);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  text-align: center;
+}
+
+.header {
+  background: var(--emerald-900);
+  padding: 40px 32px;
+  border-bottom: 3px solid var(--gold-500);
+}
+
+.logo {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #fff;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  direction: ltr;
+}
+
+.logo-icon {
+  width: 36px;
+  height: 36px;
+  background: var(--gold-500);
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--emerald-900);
+}
+
+.content {
+  padding: 36px 32px;
+}
+
+.content p {
+  color: var(--ink-700);
+  line-height: 1.9;
+  margin-bottom: 28px;
+}
+
+.links {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.links a {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.9rem;
+  color: var(--emerald-700);
+  text-decoration: none;
+  border: 1px solid var(--emerald-700);
+  padding: 10px 22px;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.links a:hover {
+  background: var(--emerald-700);
+  color: #fff;
+}
+
+.footer {
+  padding: 18px 32px;
+  color: var(--ink-500);
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.75rem;
+  direction: ltr;
+}
+
+@media (max-width: 480px) {
+  .content { padding: 28px 24px; }
+  .header { padding: 32px 24px; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+  <div class="header">
+    <div class="logo">
+      <span class="logo-icon">D</span>
+      DarsMap
+    </div>
+  </div>
+  <div class="content">
+    <p lang="ar">دروس ومساجد قريبة منك، أينما كنت.</p>
+    <div class="links">
+      <a href="privacy.html">Privacy · الخصوصية</a>
+      <a href="support.html">Support · الدعم</a>
+    </div>
+  </div>
+  <div class="footer">DarsMap</div>
+</div>
+
+</body>
+</html>

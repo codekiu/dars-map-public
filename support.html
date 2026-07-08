@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DarsMap — Support / الدعم الفني</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --emerald-900: #064E3B;
+  --emerald-800: #065F46;
+  --emerald-700: #047857;
+  --emerald-100: #D1FAE5;
+  --emerald-50: #ECFDF5;
+  --sand-50: #FDFBF7;
+  --sand-100: #F5F0E8;
+  --sand-200: #E8E0D0;
+  --ink-900: #1A1A1A;
+  --ink-700: #374151;
+  --ink-500: #6B7280;
+  --gold-500: #B8860B;
+  --gold-300: #DAA520;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Noto Sans Arabic', 'Source Serif 4', Georgia, serif;
+  color: var(--ink-900);
+  background: var(--sand-50);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+}
+
+.page {
+  max-width: 720px;
+  width: 100%;
+  background: #fff;
+  border: 1px solid var(--sand-200);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+}
+
+.header {
+  background: var(--emerald-900);
+  padding: 36px 48px;
+  text-align: center;
+  border-bottom: 3px solid var(--gold-500);
+}
+
+.logo {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #fff;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  direction: ltr;
+}
+
+.logo-icon {
+  width: 34px;
+  height: 34px;
+  background: var(--gold-500);
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--emerald-900);
+}
+
+.header-sub {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--emerald-100);
+  opacity: 0.75;
+  direction: ltr;
+}
+
+.content {
+  padding: 48px;
+}
+
+.section {
+  margin-bottom: 36px;
+  direction: rtl;
+  text-align: right;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+.section h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--emerald-900);
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--sand-200);
+}
+
+.section p, .section li {
+  color: var(--ink-700);
+  line-height: 2;
+  margin-bottom: 10px;
+}
+
+.section ul {
+  padding-right: 22px;
+  margin-bottom: 14px;
+}
+
+.contact-box {
+  background: var(--emerald-50);
+  border: 1px solid var(--emerald-100);
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin-bottom: 8px;
+}
+
+.contact-box a {
+  color: var(--emerald-800);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.lang-divider {
+  height: 1px;
+  background: var(--sand-200);
+  margin: 44px 0;
+  position: relative;
+}
+
+.lang-divider::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: -3px;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 6px;
+  background: var(--gold-500);
+  border-radius: 3px;
+}
+
+.section-en {
+  direction: ltr;
+  text-align: left;
+  font-family: 'Source Serif 4', Georgia, serif;
+}
+
+.footer {
+  padding: 20px 48px;
+  background: var(--sand-100);
+  border-top: 1px solid var(--sand-200);
+  text-align: center;
+}
+
+.footer p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.75rem;
+  color: var(--ink-500);
+  line-height: 1.6;
+  direction: ltr;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.85rem;
+  color: var(--emerald-700);
+  text-decoration: none;
+  border: 1px solid var(--emerald-700);
+  padding: 8px 20px;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.back-link:hover {
+  background: var(--emerald-700);
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .content { padding: 32px 24px; }
+  .header { padding: 28px 24px; }
+  .footer { padding: 16px 24px; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+  <div class="header">
+    <div class="logo">
+      <span class="logo-icon">D</span>
+      DarsMap
+    </div>
+    <div class="header-sub">Support · الدعم الفني</div>
+  </div>
+
+  <div class="content">
+
+    <div class="section" lang="ar">
+      <h2>تواصل معنا</h2>
+      <div class="contact-box">
+        <p style="margin-bottom:4px;">للدعم الفني أو الاستفسارات أو الإبلاغ عن مشكلة:</p>
+        <a dir="ltr" href="mailto:eisa@codekiu.com">eisa@codekiu.com</a>
+      </div>
+      <p>نحرص على الرد خلال 2-3 أيام عمل.</p>
+
+      <h2>أسئلة شائعة</h2>
+      <p><strong>لماذا لا تظهر أي مساجد بالقرب مني؟</strong><br>
+      يعرض DarsMap فقط المساجد التي لديها دروس مجدولة لليوم الحالي. إذا لم تظهر نتائج، قد لا توجد دروس اليوم ضمن نطاق البحث — جرّب توسيع نطاق البحث أو التحقق لاحقًا.</p>
+      <p><strong>لماذا يطلب التطبيق إذن الموقع؟</strong><br>
+      يُستخدم موقعك فقط لعرض المساجد والدروس الأقرب إليك وحساب مواقيت الصلاة. راجع <a href="privacy.html">سياسة الخصوصية</a> لمزيد من التفاصيل.</p>
+      <p><strong>كيف أوقف تذكيرات الدروس التي أتابعها؟</strong><br>
+      من تبويب "المحفوظات"، افتح الدرس واضغط على "إلغاء المتابعة" لإيقاف التذكير الأسبوعي.</p>
+    </div>
+
+    <div class="lang-divider"></div>
+
+    <div class="section section-en" lang="en">
+      <h2>Contact Us</h2>
+      <div class="contact-box">
+        <p style="margin-bottom:4px;">For technical support, questions, or to report an issue:</p>
+        <a href="mailto:eisa@codekiu.com">eisa@codekiu.com</a>
+      </div>
+      <p>We aim to respond within 2-3 business days.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>Why don't I see any mosques nearby?</strong><br>
+      DarsMap only shows mosques with classes scheduled for today. If nothing appears, there may be no classes today within your search radius — try expanding the radius or checking back later.</p>
+      <p><strong>Why does the app ask for location permission?</strong><br>
+      Your location is used only to show the nearest mosques and classes and to calculate prayer times. See our <a href="privacy.html">Privacy Policy</a> for details.</p>
+      <p><strong>How do I stop reminders for a class I'm following?</strong><br>
+      Open the class from the "Saved" tab and tap "Unfollow" to stop the weekly reminder.</p>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <p>DarsMap &middot; Support</p>
+  </div>
+
+  <div style="text-align:center; padding: 24px;">
+    <a href="index.html" class="back-link">DarsMap</a>
+  </div>
+</div>
+
+</body>
+</html>
