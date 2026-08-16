@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DarsMap — Privacy Policy / سياسة الخصوصية</title>
+<title>مجالس العلم (Majalis Al-Ilm) — Privacy Policy / سياسة الخصوصية</title>
+<meta name="description" content="Privacy Policy for the mobile app مجالس العلم (Majalis Al-Ilm), package com.darsmap.app, published by Jesus Copado Espejo.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -171,6 +172,48 @@ body {
   font-family: 'Source Serif 4', Georgia, serif;
 }
 
+.identity {
+  background: var(--emerald-50);
+  border: 1px solid var(--emerald-100);
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin-bottom: 32px;
+}
+
+.identity dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 8px 16px;
+  margin: 0;
+}
+
+.identity dt {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--emerald-800);
+  line-height: 1.7;
+}
+
+.identity dd {
+  margin: 0;
+  color: var(--ink-900);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.identity dd .ltr {
+  direction: ltr;
+  display: inline-block;
+  unicode-bidi: isolate;
+}
+
+@media (max-width: 600px) {
+  .identity { padding: 16px 18px; }
+  .identity dl { grid-template-columns: 1fr; gap: 2px; }
+  .identity dd { margin-bottom: 10px; }
+}
+
 .footer {
   padding: 20px 48px;
   background: var(--sand-100);
@@ -218,21 +261,36 @@ body {
 <div class="page">
   <div class="header">
     <div class="logo">
-      <span class="logo-icon">D</span>
-      DarsMap
+      <span class="logo-icon">م</span>
+      مجالس العلم
     </div>
-    <div class="header-sub">Privacy Policy · سياسة الخصوصية</div>
+    <div class="header-sub">Majalis Al-Ilm · Privacy Policy · سياسة الخصوصية</div>
   </div>
 
 
   <div class="content">
 
     <div class="section" lang="ar">
+      <div class="identity">
+        <dl>
+          <dt>اسم التطبيق</dt>
+          <dd>مجالس العلم <span class="ltr">(Majalis Al-Ilm)</span></dd>
+          <dt>معرّف التطبيق</dt>
+          <dd><span class="ltr">com.darsmap.app</span></dd>
+          <dt>المطوّر / الناشر</dt>
+          <dd><span class="ltr">Jesus Copado Espejo</span></dd>
+          <dt>البريد الإلكتروني</dt>
+          <dd><span class="ltr">darsmap@codekiu.com</span></dd>
+          <dt>آخر تحديث</dt>
+          <dd><span class="ltr">16 August 2026</span></dd>
+        </dl>
+      </div>
+
       <h2>سياسة الخصوصية</h2>
-      <p>يحترم تطبيق DarsMap خصوصيتك. توضح هذه السياسة البيانات التي يجمعها التطبيق وكيفية استخدامها.</p>
+      <p>تنطبق سياسة الخصوصية هذه على تطبيق <strong>مجالس العلم</strong> <span dir="ltr">(Majalis Al-Ilm)</span> بمعرّف <span dir="ltr">com.darsmap.app</span>، المنشور على متجر Google Play ومتجر App Store بواسطة <span dir="ltr">Jesus Copado Espejo</span>. يحترم التطبيق خصوصيتك، وتوضح هذه السياسة البيانات التي يجمعها التطبيق وكيفية استخدامها.</p>
 
       <h2>البيانات التي نجمعها</h2>
-      <p>يستخدم DarsMap <strong>موقعك الجغرافي (الدقيق)</strong> فقط لعرض المساجد والدروس القريبة منك وترتيبها حسب المسافة، وحساب مواقيت الصلاة الخاصة بموقعك. لا يتم جمع أي بيانات أخرى شخصية — لا يوجد تسجيل دخول أو حساب مستخدم في التطبيق.</p>
+      <p>يستخدم تطبيق مجالس العلم <strong>موقعك الجغرافي (الدقيق)</strong> فقط لعرض المساجد والدروس القريبة منك وترتيبها حسب المسافة، وحساب مواقيت الصلاة الخاصة بموقعك. لا يتم جمع أي بيانات أخرى شخصية — لا يوجد تسجيل دخول أو حساب مستخدم في التطبيق.</p>
 
       <h2>كيفية استخدام الموقع</h2>
       <ul>
@@ -246,26 +304,41 @@ body {
       <p>عند "متابعة" درس، يقوم التطبيق بجدولة تذكير أسبوعي محليًا على جهازك فقط قبل 15 دقيقة من موعد الدرس. لا تُرسل هذه الإشعارات عبر خوادم خارجية ولا تتطلب مشاركة أي بيانات مع طرف ثالث.</p>
 
       <h2>التخزين المحلي</h2>
-      <p>يتم حفظ المساجد والدروس "المفضّلة" أو "المتابَعة" على جهازك محليًا. بيانات المساجد والدروس نفسها (الأسماء، المواعيد، المواقع الجغرافية العامة) تُسترجع من خادم DarsMap لعرضها في التطبيق، ولا ترتبط بأي معرّف شخصي لك.</p>
+      <p>يتم حفظ المساجد والدروس "المفضّلة" أو "المتابَعة" على جهازك محليًا. بيانات المساجد والدروس نفسها (الأسماء، المواعيد، المواقع الجغرافية العامة) تُسترجع من خادم التطبيق لعرضها داخل التطبيق، ولا ترتبط بأي معرّف شخصي لك.</p>
 
       <h2>خصوصية الأطفال</h2>
-      <p>لا يستهدف DarsMap الأطفال دون سن 13 عامًا، ولا يجمع عن قصد بيانات من هذه الفئة العمرية.</p>
+      <p>لا يستهدف تطبيق مجالس العلم الأطفال دون سن 13 عامًا، ولا يجمع عن قصد بيانات من هذه الفئة العمرية.</p>
 
       <h2>التغييرات على هذه السياسة</h2>
       <p>قد يتم تحديث هذه السياسة من حين لآخر. سيتم تحديث تاريخ "آخر تحديث" أعلى الصفحة عند إجراء أي تغييرات جوهرية.</p>
 
       <h2>التواصل معنا</h2>
-      <p>لأي استفسار حول الخصوصية، يمكنك التواصل عبر البريد الإلكتروني: <span dir="ltr">darsmap@codekiu.com</span></p>
+      <p>لأي استفسار حول الخصوصية، يمكنك التواصل مع المطوّر <span dir="ltr">Jesus Copado Espejo</span> عبر البريد الإلكتروني: <span dir="ltr">darsmap@codekiu.com</span></p>
     </div>
 
     <div class="lang-divider"></div>
 
     <div class="section section-en" lang="en">
+      <div class="identity">
+        <dl>
+          <dt>App name</dt>
+          <dd>مجالس العلم (Majalis Al-Ilm)</dd>
+          <dt>Application ID</dt>
+          <dd>com.darsmap.app</dd>
+          <dt>Developer / publisher</dt>
+          <dd>Jesus Copado Espejo</dd>
+          <dt>Contact email</dt>
+          <dd>darsmap@codekiu.com</dd>
+          <dt>Last updated</dt>
+          <dd>16 August 2026</dd>
+        </dl>
+      </div>
+
       <h2>Privacy Policy</h2>
-      <p>DarsMap respects your privacy. This policy explains what data the app collects and how it is used.</p>
+      <p>This Privacy Policy applies to the mobile application <strong>مجالس العلم (Majalis Al-Ilm)</strong>, application ID <strong>com.darsmap.app</strong>, published on Google Play and the App Store by <strong>Jesus Copado Espejo</strong>. The app respects your privacy, and this policy explains what data it collects and how that data is used.</p>
 
       <h2>Data We Collect</h2>
-      <p>DarsMap uses your <strong>precise location</strong> only to show nearby mosques and classes sorted by distance, and to calculate prayer times for your location. No other personal data is collected — the app has no login or user account.</p>
+      <p>مجالس العلم (Majalis Al-Ilm) uses your <strong>precise location</strong> only to show nearby mosques and classes sorted by distance, and to calculate prayer times for your location. No other personal data is collected — the app has no login or user account.</p>
 
       <h2>How Location Is Used</h2>
       <ul>
@@ -279,26 +352,28 @@ body {
       <p>When you "follow" a class, the app schedules a weekly reminder <strong>locally on your device</strong>, 15 minutes before the class starts. These reminders are not sent through any external server and require no data sharing with third parties.</p>
 
       <h2>Local Storage</h2>
-      <p>Mosques and classes you "favorite" or "follow" are saved locally on your device. Mosque and class listing data (names, schedules, general coordinates) is retrieved from the DarsMap backend to display in the app, and is not linked to any personal identifier of yours.</p>
+      <p>Mosques and classes you "favorite" or "follow" are saved locally on your device. Mosque and class listing data (names, schedules, general coordinates) is retrieved from the app's backend to display in the app, and is not linked to any personal identifier of yours.</p>
 
       <h2>Children's Privacy</h2>
-      <p>DarsMap does not target children under 13 and does not knowingly collect data from this age group.</p>
+      <p>مجالس العلم (Majalis Al-Ilm) does not target children under 13 and does not knowingly collect data from this age group.</p>
 
       <h2>Changes to This Policy</h2>
       <p>This policy may be updated from time to time. The "last updated" date at the top of this page will change whenever a material update is made.</p>
 
       <h2>Contact Us</h2>
-      <p>For any privacy questions, contact us at: <span dir="ltr">darsmap@codekiu.com</span></p>
+      <p>For any privacy questions, contact the developer, Jesus Copado Espejo, at: <span dir="ltr">darsmap@codekiu.com</span></p>
     </div>
 
   </div>
 
+  <div class="updated">Last updated: 16 August 2026 &middot; آخر تحديث</div>
+
   <div class="footer">
-    <p>DarsMap &middot; Privacy Policy</p>
+    <p>مجالس العلم (Majalis Al-Ilm) &middot; com.darsmap.app &middot; &copy; Jesus Copado Espejo</p>
   </div>
 
   <div style="text-align:center; padding: 24px;">
-    <a href="index.html" class="back-link">DarsMap</a>
+    <a href="index.html" class="back-link">مجالس العلم</a>
   </div>
 </div>
 
