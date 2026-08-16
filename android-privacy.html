@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مجالس العلم (Majalis Al-Ilm) — Android Privacy Policy / سياسة الخصوصية</title>
+<meta name="description" content="Privacy Policy for the Android app مجالس العلم (Majalis Al-Ilm), package com.darsmap.app, published on Google Play by Jesus Copado Espejo.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --emerald-900: #064E3B;
+  --emerald-800: #065F46;
+  --emerald-700: #047857;
+  --emerald-100: #D1FAE5;
+  --emerald-50: #ECFDF5;
+  --sand-50: #FDFBF7;
+  --sand-100: #F5F0E8;
+  --sand-200: #E8E0D0;
+  --ink-900: #1A1A1A;
+  --ink-700: #374151;
+  --ink-500: #6B7280;
+  --gold-500: #B8860B;
+  --gold-300: #DAA520;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Noto Sans Arabic', 'Source Serif 4', Georgia, serif;
+  color: var(--ink-900);
+  background: var(--sand-50);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+}
+
+.page {
+  max-width: 760px;
+  width: 100%;
+  background: #fff;
+  border: 1px solid var(--sand-200);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+}
+
+.header {
+  background: var(--emerald-900);
+  padding: 36px 48px;
+  text-align: center;
+  border-bottom: 3px solid var(--gold-500);
+}
+
+.logo {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #fff;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  direction: ltr;
+}
+
+.logo-icon {
+  width: 34px;
+  height: 34px;
+  background: var(--gold-500);
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--emerald-900);
+}
+
+.header-sub {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--emerald-100);
+  opacity: 0.75;
+  direction: ltr;
+}
+
+.content {
+  padding: 48px;
+}
+
+.section {
+  margin-bottom: 36px;
+  direction: rtl;
+  text-align: right;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+.section h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--emerald-900);
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--sand-200);
+}
+
+.section p, .section li {
+  color: var(--ink-700);
+  line-height: 2;
+  margin-bottom: 10px;
+}
+
+.section ul {
+  padding-right: 22px;
+  margin-bottom: 14px;
+}
+
+.section-en ul {
+  padding-right: 0;
+  padding-left: 22px;
+}
+
+.section p:last-child {
+  margin-bottom: 0;
+}
+
+.updated {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.8rem;
+  color: var(--ink-500);
+  text-align: center;
+  padding: 16px 48px 0;
+  direction: ltr;
+}
+
+.lang-divider {
+  height: 1px;
+  background: var(--sand-200);
+  margin: 44px 0;
+  position: relative;
+}
+
+.lang-divider::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: -3px;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 6px;
+  background: var(--gold-500);
+  border-radius: 3px;
+}
+
+.section-en {
+  direction: ltr;
+  text-align: left;
+  font-family: 'Source Serif 4', Georgia, serif;
+}
+
+.identity {
+  background: var(--emerald-50);
+  border: 1px solid var(--emerald-100);
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin-bottom: 32px;
+}
+
+.identity dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 8px 16px;
+  margin: 0;
+}
+
+.identity dt {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--emerald-800);
+  line-height: 1.7;
+}
+
+.identity dd {
+  margin: 0;
+  color: var(--ink-900);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.ltr {
+  direction: ltr;
+  display: inline-block;
+  unicode-bidi: isolate;
+}
+
+.callout {
+  background: var(--sand-100);
+  border-inline-start: 3px solid var(--gold-500);
+  border-radius: 6px;
+  padding: 14px 18px;
+  margin-bottom: 18px;
+}
+
+.callout p {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  margin-bottom: 18px;
+  border: 1px solid var(--sand-200);
+  border-radius: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 420px;
+  font-size: 0.92rem;
+}
+
+th, td {
+  padding: 11px 14px;
+  border-bottom: 1px solid var(--sand-200);
+  vertical-align: top;
+  line-height: 1.8;
+  color: var(--ink-700);
+}
+
+.section th { text-align: right; }
+.section-en th { text-align: left; }
+
+thead th {
+  background: var(--emerald-50);
+  color: var(--emerald-800);
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+
+code {
+  font-family: 'IBM Plex Sans', ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.85em;
+  background: var(--sand-100);
+  border: 1px solid var(--sand-200);
+  border-radius: 4px;
+  padding: 1px 5px;
+  direction: ltr;
+  display: inline-block;
+  unicode-bidi: isolate;
+  color: var(--emerald-800);
+  white-space: nowrap;
+}
+
+a { color: var(--emerald-700); }
+
+.footer {
+  padding: 20px 48px;
+  background: var(--sand-100);
+  border-top: 1px solid var(--sand-200);
+  text-align: center;
+}
+
+.footer p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.75rem;
+  color: var(--ink-500);
+  line-height: 1.6;
+  direction: ltr;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.85rem;
+  color: var(--emerald-700);
+  text-decoration: none;
+  border: 1px solid var(--emerald-700);
+  padding: 8px 20px;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.back-link:hover {
+  background: var(--emerald-700);
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .content { padding: 32px 24px; }
+  .header { padding: 28px 24px; }
+  .footer { padding: 16px 24px; }
+  .updated { padding: 16px 24px 0; }
+  .identity { padding: 16px 18px; }
+  .identity dl { grid-template-columns: 1fr; gap: 2px; }
+  .identity dd { margin-bottom: 10px; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+  <div class="header">
+    <div class="logo">
+      <span class="logo-icon">م</span>
+      مجالس العلم
+    </div>
+    <div class="header-sub">Majalis Al-Ilm · Android Privacy Policy · سياسة خصوصية أندرويد</div>
+  </div>
+
+
+  <div class="content">
+
+    <!-- ============================== ARABIC ============================== -->
+    <div class="section" lang="ar">
+      <div class="identity">
+        <dl>
+          <dt>اسم التطبيق</dt>
+          <dd>مجالس العلم <span class="ltr">(Majalis Al-Ilm)</span></dd>
+          <dt>معرّف الحزمة</dt>
+          <dd><code>com.darsmap.app</code></dd>
+          <dt>المطوّر / الناشر</dt>
+          <dd><span class="ltr">Jesus Copado Espejo</span></dd>
+          <dt>المنصّة</dt>
+          <dd>أندرويد — متجر Google Play</dd>
+          <dt>البريد الإلكتروني</dt>
+          <dd><span class="ltr">darsmap@codekiu.com</span></dd>
+          <dt>آخر تحديث</dt>
+          <dd><span class="ltr">16 August 2026</span></dd>
+        </dl>
+      </div>
+
+      <h2>نطاق هذه السياسة</h2>
+      <p>تنطبق سياسة الخصوصية هذه تحديدًا على <strong>نسخة أندرويد</strong> من تطبيق <strong>مجالس العلم</strong> <span dir="ltr">(Majalis Al-Ilm)</span>، بمعرّف الحزمة <code>com.darsmap.app</code>، المنشور على متجر Google Play بواسطة <span dir="ltr">Jesus Copado Espejo</span>. أما نسخة iOS فتخضع لـ<a href="privacy.html">سياسة الخصوصية العامة</a>.</p>
+
+      <h2>الخلاصة</h2>
+      <div class="callout">
+        <p>لا يوجد حساب ولا تسجيل دخول. لا إعلانات. لا أدوات تحليلات أو تتبّع أو تقارير أعطال من طرف ثالث. لا نبيع بياناتك ولا نشاركها لأغراض إعلانية. لا يُطلب منك اسمك أو بريدك أو رقم هاتفك في أي مكان داخل التطبيق.</p>
+      </div>
+
+      <h2>الأذونات التي يطلبها التطبيق</h2>
+      <p>هذه هي جميع الأذونات المُعلَنة في التطبيق، وسبب كل منها:</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>الإذن</th><th>سبب استخدامه</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>ACCESS_FINE_LOCATION</code><br><code>ACCESS_COARSE_LOCATION</code></td>
+              <td>لعرض المساجد والدروس الأقرب إليك وترتيبها حسب المسافة، ولحساب مواقيت الصلاة الخاصة بموقعك. <strong>اختياري</strong> — يمكنك رفضه ويستمر التطبيق في العمل مع البحث اليدوي بدل الترتيب حسب القرب.</td>
+            </tr>
+            <tr>
+              <td><code>POST_NOTIFICATIONS</code></td>
+              <td>لإظهار تذكير قبل 15 دقيقة من موعد الدرس الذي تتابعه. التذكيرات محلية بالكامل على جهازك.</td>
+            </tr>
+            <tr>
+              <td><code>SCHEDULE_EXACT_ALARM</code></td>
+              <td>ليصل التذكير في وقته المضبوط. إذا لم تمنح هذا الإذن يعمل التذكير ضمن نافذة زمنية تقريبية، ويُعلمك التطبيق بذلك.</td>
+            </tr>
+            <tr>
+              <td><code>RECEIVE_BOOT_COMPLETED</code></td>
+              <td>لإعادة جدولة تذكيراتك بعد إعادة تشغيل الجهاز أو تغيير الوقت أو المنطقة الزمنية، حتى لا تضيع.</td>
+            </tr>
+            <tr>
+              <td><code>INTERNET</code></td>
+              <td>لجلب بيانات المساجد والدروس وخرائط المنطقة.</td>
+            </tr>
+            <tr>
+              <td>رؤية تطبيقات الخرائط <span class="ltr">(<code>queries</code> / <code>geo:</code>)</span></td>
+              <td>ليتمكن زر «الاتجاهات» من فتح تطبيق الخرائط لديك. لا يقرأ التطبيق قائمة تطبيقاتك المثبّتة ولا يرسلها إلى أي جهة.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>لا يطلب التطبيق إذن الموقع في الخلفية <span class="ltr">(<code>ACCESS_BACKGROUND_LOCATION</code>)</span>، ولا يتتبّع موقعك أثناء إغلاقه.</p>
+
+      <h2>البيانات التي تغادر جهازك</h2>
+      <ul>
+        <li><strong>إحداثيات موقعك</strong>: تُرسل إلى خادم التطبيق لتنفيذ استعلام «الدروس القريبة» ضمن نطاق تختاره، ثم لعرض النتائج. لا ترتبط هذه الاستعلامات بأي حساب أو هوية، إذ لا وجود لحسابات في التطبيق أصلًا. تُحسب مواقيت الصلاة <strong>على جهازك</strong> دون إرسال موقعك لأي خدمة مواقيت خارجية.</li>
+        <li><strong>الإبلاغ عن موقع مسجد خاطئ</strong> (بمبادرة منك فقط): عند إرسال بلاغ يُرسَل معرّف المسجد، والإحداثيات المصحّحة التي اخترتها، وملاحظتك النصية إن كتبتها، إضافةً إلى <strong>معرّف عشوائي للنسخة المثبّتة</strong> يُستخدم فقط للحدّ من التكرار المسيء على الخادم.</li>
+      </ul>
+      <div class="callout">
+        <p>هذا المعرّف العشوائي يُنشأ داخل التطبيق <span class="ltr">(UUID)</span> عند أول استخدام، وهو <strong>ليس</strong> معرّف إعلاني ولا <span class="ltr">Android ID</span> ولا أي معرّف ثابت للجهاز، ولا يمكن ربطه بك. كما أنه مستثنى من النسخ الاحتياطي عمدًا، فلا ينتقل إلى هاتف جديد.</p>
+      </div>
+
+      <h2>الجهات الخارجية التي تعالج البيانات</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>الجهة</th><th>ما تصل إليه</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="ltr">Supabase</span></td>
+              <td>يستضيف قاعدة بيانات المساجد والدروس. يستقبل استعلامات القرب والبلاغات المذكورة أعلاه بصفته مشغّلًا للخدمة نيابةً عنّا.</td>
+            </tr>
+            <tr>
+              <td><span class="ltr">OpenFreeMap</span><br><span class="ltr">(tiles.openfreemap.org)</span></td>
+              <td>يزوّد خرائط الشارع. عند فتح الخريطة يستقبل — كأي طلب إنترنت — عنوان <span class="ltr">IP</span> الخاص بك ومربّعات الخريطة المعروضة. لا نرسل إليه أي معرّف يخصّك.</td>
+            </tr>
+            <tr>
+              <td><span class="ltr">Google</span> (النسخ الاحتياطي التلقائي لأندرويد)</td>
+              <td>إن كان النسخ الاحتياطي مفعّلًا في جهازك، تُنسخ قائمة المساجد المحفوظة والدروس المتابَعة إلى حسابك في Google. هذه ميزة من نظام أندرويد ويمكنك إيقافها من <span class="ltr">الإعدادات ← Google ← النسخ الاحتياطي</span>.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>لا يحتوي التطبيق على أي حزمة إعلانات أو تحليلات أو تتبّع أو تقارير أعطال من طرف ثالث.</p>
+
+      <h2>البيانات المحفوظة على جهازك</h2>
+      <p>تُحفظ محليًا: المساجد المحفوظة والدروس المتابَعة، وآخر موقع معروف (لتفادي انتظار تحديد الموقع عند كل فتح)، ونسخة مؤقتة من نتائج آخر بحث لتسريع العرض، وإعدادات بسيطة مثل ما إذا كنت قد شاهدت شاشة الترحيب. تُحذف هذه البيانات جميعها بحذف التطبيق.</p>
+
+      <h2>الإشعارات</h2>
+      <p>عند «متابعة» درس، يجدول التطبيق تذكيرًا أسبوعيًا <strong>محليًا على جهازك</strong> قبل 15 دقيقة من موعد الدرس. لا تمرّ هذه التذكيرات عبر أي خادم إشعارات، ولا نعرف نحن ما الدروس التي تتابعها.</p>
+
+      <h2>الاحتفاظ بالبيانات وحذفها</h2>
+      <ul>
+        <li>حذف التطبيق يمحو كل ما هو محفوظ على الجهاز. لإزالة النسخة الاحتياطية أيضًا، أوقف النسخ الاحتياطي من إعدادات أندرويد أو احذف بيانات التطبيق من حسابك في Google.</li>
+        <li>البلاغات التي ترسلها تُحفظ للمراجعة وتصحيح بيانات الخريطة. لطلب حذف بلاغ أرسلته، راسلنا على <span class="ltr">darsmap@codekiu.com</span>.</li>
+      </ul>
+
+      <h2>خصوصية الأطفال</h2>
+      <p>لا يستهدف تطبيق مجالس العلم الأطفال دون سن 13 عامًا، ولا يجمع عن قصد بيانات من هذه الفئة العمرية.</p>
+
+      <h2>التغييرات على هذه السياسة</h2>
+      <p>قد تُحدَّث هذه السياسة من حين لآخر، وسيتغيّر تاريخ «آخر تحديث» أعلى الصفحة عند أي تغيير جوهري.</p>
+
+      <h2>التواصل معنا</h2>
+      <p>لأي استفسار حول الخصوصية، يمكنك التواصل مع المطوّر <span dir="ltr">Jesus Copado Espejo</span> عبر البريد الإلكتروني: <span dir="ltr">darsmap@codekiu.com</span></p>
+    </div>
+
+    <div class="lang-divider"></div>
+
+    <!-- ============================== ENGLISH ============================== -->
+    <div class="section section-en" lang="en">
+      <div class="identity">
+        <dl>
+          <dt>App name</dt>
+          <dd>مجالس العلم (Majalis Al-Ilm)</dd>
+          <dt>Package name</dt>
+          <dd><code>com.darsmap.app</code></dd>
+          <dt>Developer / publisher</dt>
+          <dd>Jesus Copado Espejo</dd>
+          <dt>Platform</dt>
+          <dd>Android — Google Play</dd>
+          <dt>Contact email</dt>
+          <dd>darsmap@codekiu.com</dd>
+          <dt>Last updated</dt>
+          <dd>16 August 2026</dd>
+        </dl>
+      </div>
+
+      <h2>Scope of This Policy</h2>
+      <p>This Privacy Policy applies specifically to the <strong>Android version</strong> of <strong>مجالس العلم (Majalis Al-Ilm)</strong>, package name <code>com.darsmap.app</code>, published on Google Play by <strong>Jesus Copado Espejo</strong>. The iOS version is covered by the <a href="privacy.html">general privacy policy</a>.</p>
+
+      <h2>Summary</h2>
+      <div class="callout">
+        <p>No account and no sign-in. No advertising. No third-party analytics, tracking, or crash-reporting SDKs. We do not sell your data or share it for advertising. The app never asks for your name, email, or phone number.</p>
+      </div>
+
+      <h2>Permissions the App Requests</h2>
+      <p>These are all of the permissions the app declares, and why each one is needed:</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Permission</th><th>Why it is used</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>ACCESS_FINE_LOCATION</code><br><code>ACCESS_COARSE_LOCATION</code></td>
+              <td>To show the mosques and classes nearest to you sorted by distance, and to calculate prayer times for your location. <strong>Optional</strong> — you may decline it and the app keeps working, with manual search instead of proximity sorting.</td>
+            </tr>
+            <tr>
+              <td><code>POST_NOTIFICATIONS</code></td>
+              <td>To show a reminder 15 minutes before a class you follow. Reminders are entirely local to your device.</td>
+            </tr>
+            <tr>
+              <td><code>SCHEDULE_EXACT_ALARM</code></td>
+              <td>So a reminder arrives at the right minute. If you withhold it, reminders fall back to an approximate window and the app tells you so.</td>
+            </tr>
+            <tr>
+              <td><code>RECEIVE_BOOT_COMPLETED</code></td>
+              <td>To re-register your reminders after a reboot, a time change, or a time-zone change, so they are not silently lost.</td>
+            </tr>
+            <tr>
+              <td><code>INTERNET</code></td>
+              <td>To fetch mosque and class listings and map tiles.</td>
+            </tr>
+            <tr>
+              <td>Maps-app visibility (<code>queries</code> / <code>geo:</code>)</td>
+              <td>So the "Directions" button can open your maps app. The app does not read or transmit your list of installed apps.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>The app does not request background location (<code>ACCESS_BACKGROUND_LOCATION</code>) and does not track your location while it is closed.</p>
+
+      <h2>Data That Leaves Your Device</h2>
+      <ul>
+        <li><strong>Your coordinates</strong> are sent to the app's backend to run the "nearby classes" query within a radius you choose, and to return the results. These queries are not tied to any account or identity, because the app has no accounts at all. Prayer times are computed <strong>on your device</strong>; your location is not sent to any external prayer-time service.</li>
+        <li><strong>Wrong-location reports</strong> (only when you choose to send one): the report includes the mosque's ID, the corrected coordinates you picked, your optional free-text note, and a <strong>random per-install identifier</strong> used solely for server-side rate limiting.</li>
+      </ul>
+      <div class="callout">
+        <p>That random identifier is generated inside the app (a UUID) on first use. It is <strong>not</strong> an advertising ID, not the Android ID, and not any persistent device identifier, and it cannot be linked back to you. It is also deliberately excluded from backup, so it does not follow you to a new phone.</p>
+      </div>
+
+      <h2>Third Parties That Process Data</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Party</th><th>What it receives</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Supabase</td>
+              <td>Hosts the mosque and class database. It receives the proximity queries and reports described above, acting as a service provider on our behalf.</td>
+            </tr>
+            <tr>
+              <td>OpenFreeMap<br>(tiles.openfreemap.org)</td>
+              <td>Provides the street map. When you open the map it receives — as any internet request does — your IP address and which map tiles are being displayed. We send it no identifier of yours.</td>
+            </tr>
+            <tr>
+              <td>Google (Android Auto Backup)</td>
+              <td>If backup is enabled on your device, your saved mosques and followed classes are backed up to your Google account. This is an Android OS feature and you can turn it off under <strong>Settings → Google → Backup</strong>.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>The app contains no advertising, analytics, tracking, or crash-reporting SDK of any kind.</p>
+
+      <h2>Data Stored On Your Device</h2>
+      <p>Stored locally: your saved mosques and followed classes, your last known location (so the app does not wait for a fresh fix every launch), a short-lived cache of your most recent results, and small preferences such as whether you have seen the welcome screen. All of it is removed when you uninstall the app.</p>
+
+      <h2>Notifications</h2>
+      <p>When you "follow" a class, the app schedules a weekly reminder <strong>locally on your device</strong>, 15 minutes before the class starts. These reminders never pass through a push server, and we do not know which classes you follow.</p>
+
+      <h2>Data Retention and Deletion</h2>
+      <ul>
+        <li>Uninstalling the app erases everything stored on the device. To remove the backup copy as well, disable backup in Android settings or delete the app's data from your Google account.</li>
+        <li>Reports you submit are retained so they can be reviewed and used to correct map data. To request deletion of a report you sent, email <span dir="ltr">darsmap@codekiu.com</span>.</li>
+      </ul>
+
+      <h2>Children's Privacy</h2>
+      <p>مجالس العلم (Majalis Al-Ilm) does not target children under 13 and does not knowingly collect data from this age group.</p>
+
+      <h2>Changes to This Policy</h2>
+      <p>This policy may be updated from time to time. The "last updated" date at the top of this page will change whenever a material update is made.</p>
+
+      <h2>Contact Us</h2>
+      <p>For any privacy questions, contact the developer, Jesus Copado Espejo, at: <span dir="ltr">darsmap@codekiu.com</span></p>
+    </div>
+
+  </div>
+
+  <div class="updated">Last updated: 16 August 2026 &middot; آخر تحديث</div>
+
+  <div class="footer">
+    <p>مجالس العلم (Majalis Al-Ilm) &middot; com.darsmap.app &middot; Android &middot; &copy; Jesus Copado Espejo</p>
+  </div>
+
+  <div style="text-align:center; padding: 24px;">
+    <a href="index.html" class="back-link">مجالس العلم</a>
+  </div>
+</div>
+
+</body>
+</html>
