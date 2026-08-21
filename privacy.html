@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>مجالس العلم (Majalis Al-Ilm) — Privacy Policy / سياسة الخصوصية</title>
-<meta name="description" content="Privacy Policy for the mobile app مجالس العلم (Majalis Al-Ilm), package com.darsmap.app, published by Jesus Copado Espejo.">
+<title>مجالس العلم (Majalis Al-Ilm) — iOS Privacy Policy / سياسة الخصوصية</title>
+<meta name="description" content="Privacy Policy for the Android app مجالس العلم (Majalis Al-Ilm), package com.darsmap.app, published on Google Play by Jesus Copado Espejo.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -134,6 +134,11 @@ body {
   margin-bottom: 14px;
 }
 
+.section-en ul {
+  padding-right: 0;
+  padding-left: 22px;
+}
+
 .section p:last-child {
   margin-bottom: 0;
 }
@@ -202,17 +207,75 @@ body {
   line-height: 1.7;
 }
 
-.identity dd .ltr {
+.ltr {
   direction: ltr;
   display: inline-block;
   unicode-bidi: isolate;
 }
 
-@media (max-width: 600px) {
-  .identity { padding: 16px 18px; }
-  .identity dl { grid-template-columns: 1fr; gap: 2px; }
-  .identity dd { margin-bottom: 10px; }
+.callout {
+  background: var(--sand-100);
+  border-inline-start: 3px solid var(--gold-500);
+  border-radius: 6px;
+  padding: 14px 18px;
+  margin-bottom: 18px;
 }
+
+.callout p {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  margin-bottom: 18px;
+  border: 1px solid var(--sand-200);
+  border-radius: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 420px;
+  font-size: 0.92rem;
+}
+
+th, td {
+  padding: 11px 14px;
+  border-bottom: 1px solid var(--sand-200);
+  vertical-align: top;
+  line-height: 1.8;
+  color: var(--ink-700);
+}
+
+.section th { text-align: right; }
+.section-en th { text-align: left; }
+
+thead th {
+  background: var(--emerald-50);
+  color: var(--emerald-800);
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+
+code {
+  font-family: 'IBM Plex Sans', ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.85em;
+  background: var(--sand-100);
+  border: 1px solid var(--sand-200);
+  border-radius: 4px;
+  padding: 1px 5px;
+  direction: ltr;
+  display: inline-block;
+  unicode-bidi: isolate;
+  color: var(--emerald-800);
+  white-space: nowrap;
+}
+
+a { color: var(--emerald-700); }
 
 .footer {
   padding: 20px 48px;
@@ -252,6 +315,9 @@ body {
   .header { padding: 28px 24px; }
   .footer { padding: 16px 24px; }
   .updated { padding: 16px 24px 0; }
+  .identity { padding: 16px 18px; }
+  .identity dl { grid-template-columns: 1fr; gap: 2px; }
+  .identity dd { margin-bottom: 10px; }
 }
 </style>
 </head>
@@ -264,53 +330,137 @@ body {
       <span class="logo-icon">م</span>
       مجالس العلم
     </div>
-    <div class="header-sub">Majalis Al-Ilm · Privacy Policy · سياسة الخصوصية</div>
+    <div class="header-sub">Majalis Al-Ilm · iOS Privacy Policy · سياسة خصوصية iOS</div>
   </div>
 
 
   <div class="content">
 
+    <!-- ============================== ARABIC ============================== -->
     <div class="section" lang="ar">
       <div class="identity">
         <dl>
           <dt>اسم التطبيق</dt>
           <dd>مجالس العلم <span class="ltr">(Majalis Al-Ilm)</span></dd>
           <dt>معرّف التطبيق</dt>
-          <dd><span class="ltr">com.darsmap.app</span></dd>
+          <dd><code>com.darsmap.app</code></dd>
           <dt>المطوّر / الناشر</dt>
           <dd><span class="ltr">Jesus Copado Espejo</span></dd>
+          <dt>المنصّة</dt>
+          <dd><span class="ltr">iOS</span> — متجر <span class="ltr">App Store</span></dd>
           <dt>البريد الإلكتروني</dt>
           <dd><span class="ltr">darsmap@codekiu.com</span></dd>
           <dt>آخر تحديث</dt>
-          <dd><span class="ltr">16 August 2026</span></dd>
+          <dd><span class="ltr">21 August 2026</span></dd>
         </dl>
       </div>
 
-      <h2>سياسة الخصوصية</h2>
-      <p>تنطبق سياسة الخصوصية هذه على تطبيق <strong>مجالس العلم</strong> <span dir="ltr">(Majalis Al-Ilm)</span> بمعرّف <span dir="ltr">com.darsmap.app</span>، المنشور على متجر Google Play ومتجر App Store بواسطة <span dir="ltr">Jesus Copado Espejo</span>. يحترم التطبيق خصوصيتك، وتوضح هذه السياسة البيانات التي يجمعها التطبيق وكيفية استخدامها.</p>
+      <h2>نطاق هذه السياسة</h2>
+      <p>تنطبق سياسة الخصوصية هذه على <strong>نسخة iOS</strong> من تطبيق <strong>مجالس العلم</strong> <span dir="ltr">(Majalis Al-Ilm)</span>، بمعرّف <code>com.darsmap.app</code>، المنشور على متجر <span class="ltr">App Store</span> بواسطة <span dir="ltr">Jesus Copado Espejo</span>. أما نسخة أندرويد فتخضع لـ<a href="android-privacy.html">سياسة خصوصية أندرويد</a>.</p>
 
-      <h2>البيانات التي نجمعها</h2>
-      <p>يستخدم تطبيق مجالس العلم <strong>موقعك الجغرافي (الدقيق)</strong> فقط لعرض المساجد والدروس القريبة منك وترتيبها حسب المسافة، وحساب مواقيت الصلاة الخاصة بموقعك. لا يتم جمع أي بيانات أخرى شخصية — لا يوجد تسجيل دخول أو حساب مستخدم في التطبيق.</p>
+      <h2>الخلاصة</h2>
+      <div class="callout">
+        <p>لا يوجد حساب ولا تسجيل دخول. لا إعلانات. لا أدوات تحليلات أو تتبّع أو تقارير أعطال من طرف ثالث. لا نبيع بياناتك ولا نشاركها لأغراض إعلانية. لا يُطلب منك اسمك أو بريدك أو رقم هاتفك في أي مكان داخل التطبيق. <strong>ولا نسجّل عنوان <span class="ltr">IP</span> الخاص بك ولا نحتفظ به.</strong></p>
+      </div>
 
-      <h2>كيفية استخدام الموقع</h2>
+      <h2>الأذونات التي يطلبها التطبيق</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>الإذن</th><th>سبب استخدامه</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>الموقع <span class="ltr">(When In Use)</span></td>
+              <td>لعرض المساجد والدروس الأقرب إليك وترتيبها حسب المسافة، ولحساب مواقيت الصلاة. <strong>اختياري</strong> — يمكنك رفضه ويستمر التطبيق في العمل مع البحث اليدوي بدل الترتيب حسب القرب.</td>
+            </tr>
+            <tr>
+              <td>الإشعارات</td>
+              <td>يُطلب عند «متابعة» أول درس، لإظهار تذكير قبل ١٥ دقيقة من موعده. التذكيرات محلية بالكامل على جهازك.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>لا يطلب التطبيق الموقع في الخلفية <span class="ltr">(Always)</span>، ولا يتتبّع موقعك أثناء إغلاقه. ولا يستخدم التطبيق مُعرّف الإعلانات <span class="ltr">(IDFA)</span> ولا يطلب إذن التتبّع <span class="ltr">(App Tracking Transparency)</span>، لأنه لا يتتبّع إطلاقًا.</p>
+
+      <h2>البيانات التي تغادر جهازك</h2>
       <ul>
-        <li>لا يتم ربط بيانات الموقع بهويتك الشخصية.</li>
-        <li>لا تُستخدم بيانات الموقع لأغراض تتبع أو إعلانات.</li>
-        <li>لا تتم مشاركة بيانات الموقع مع أي طرف ثالث.</li>
-        <li>يمكنك تعطيل إذن الموقع من إعدادات جهازك في أي وقت؛ سيستمر التطبيق في العمل مع وظائف محدودة (بحث يدوي بدل الترتيب حسب القرب).</li>
+        <li><strong>إحداثيات موقعك</strong>: تُرسل إلى خادم التطبيق لتنفيذ استعلام «الدروس القريبة» ثم لعرض النتائج. لا ترتبط هذه الاستعلامات بأي حساب أو هوية، إذ لا وجود لحسابات في التطبيق أصلًا، ولا تُكتب الإحداثيات في قاعدة البيانات ولا في سجلّات الخادم. تُحسب مواقيت الصلاة <strong>على جهازك</strong> دون إرسال موقعك إلى أي خدمة مواقيت خارجية.</li>
+        <li><strong>الإبلاغ عن موقع مسجد خاطئ</strong> (بمبادرة منك فقط): عند إرسال بلاغ يُرسَل معرّف المسجد، والإحداثيات المصحّحة التي اخترتها، وملاحظتك النصية إن كتبتها، إضافةً إلى <strong>معرّف عشوائي للنسخة المثبّتة</strong> يُستخدم فقط للحدّ من التكرار المسيء على الخادم. هذا هو الشيء الوحيد الذي يحفظه التطبيق في قاعدة البيانات.</li>
+        <li><strong>فحص وجود تحديث</strong>: يسأل التطبيق متجر <span class="ltr">App Store</span> عن أحدث إصدار منشور. يُرسَل معرّف التطبيق فقط، ويستقبل <span class="ltr">Apple</span> — كأي طلب إنترنت — عنوان <span class="ltr">IP</span> الخاص بك.</li>
+      </ul>
+      <div class="callout">
+        <p>المعرّف العشوائي يُنشأ داخل التطبيق <span class="ltr">(UUID)</span> عند أول استخدام، وهو <strong>ليس</strong> معرّف إعلاني ولا <span class="ltr">IDFA</span> ولا <span class="ltr">IDFV</span> ولا أي معرّف ثابت للجهاز، ولا يمكن ربطه بك.</p>
+      </div>
+
+      <h2>ما لا نحتفظ به</h2>
+      <ul>
+        <li><strong>لا نحتفظ بعناوين <span class="ltr">IP</span></strong>: البوّابة العكسية على خادمنا لا تُفعّل سجلّ الطلبات أصلًا، وقاعدة البيانات لا تسجّل الاتصالات ولا الاستعلامات.</li>
+        <li><strong>لا نحتفظ بإحداثياتك</strong>: تُستخدم لحظة تنفيذ الاستعلام لحساب النتائج، ثم تنتهي. لا تُكتب في أي جدول ولا في أي سجلّ.</li>
+        <li>يحتفظ خادم الواجهة بسجلّ تقني موجز جدًا لكل طلب: الوقت، ونوع الطلب، ونتيجته، ونص تعريف التطبيق ونظام التشغيل. <strong>لا يتضمّن هذا السجلّ عنوانك ولا موقعك ولا أي معرّف يخصّك.</strong></li>
       </ul>
 
-      <h2>الإشعارات</h2>
-      <p>عند "متابعة" درس، يقوم التطبيق بجدولة تذكير أسبوعي محليًا على جهازك فقط قبل 15 دقيقة من موعد الدرس. لا تُرسل هذه الإشعارات عبر خوادم خارجية ولا تتطلب مشاركة أي بيانات مع طرف ثالث.</p>
+      <h2>أين تُعالَج بياناتك</h2>
+      <p>يعمل خادم التطبيق وقاعدة بياناته على خادم خاص بنا لدى <span class="ltr">Hetzner</span> في <strong>نورنبرغ، ألمانيا</strong>. قاعدة البيانات تحتوي على بيانات المساجد والدروس والمشايخ — وهي بيانات عامة وليست بيانات مستخدمين — إضافةً إلى بلاغات تصحيح المواقع الموصوفة أعلاه.</p>
 
-      <h2>التخزين المحلي</h2>
-      <p>يتم حفظ المساجد والدروس "المفضّلة" أو "المتابَعة" على جهازك محليًا. بيانات المساجد والدروس نفسها (الأسماء، المواعيد، المواقع الجغرافية العامة) تُسترجع من خادم التطبيق لعرضها داخل التطبيق، ولا ترتبط بأي معرّف شخصي لك.</p>
+      <h2>الجهات الخارجية التي تعالج البيانات</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>الجهة</th><th>ما تصل إليه</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="ltr">Hetzner</span> (استضافة خادمنا)</td>
+              <td>تُشغّل الخادم الذي تعمل عليه قاعدة بياناتنا وواجهتها البرمجية، بصفتها مزوّد بنية تحتية فقط. لا تصل إلى محتوى الطلبات لأغراضها الخاصة.</td>
+            </tr>
+            <tr>
+              <td><span class="ltr">Apple</span> — الخرائط <span class="ltr">(Apple Maps / MapKit)</span></td>
+              <td>ترسم شاشة الخريطة داخل التطبيق. عند فتح الخريطة تستقبل <span class="ltr">Apple</span> طلبات الخرائط للمنطقة المعروضة وفق سياسة خصوصية <span class="ltr">Apple</span>. لا نرسل إليها أي معرّف يخصّك.</td>
+            </tr>
+            <tr>
+              <td><span class="ltr">Apple</span> — متجر <span class="ltr">App Store</span></td>
+              <td>يستقبل استعلام فحص الإصدار الموصوف أعلاه.</td>
+            </tr>
+            <tr>
+              <td><span class="ltr">Apple</span> — النسخ الاحتياطي <span class="ltr">(iCloud)</span></td>
+              <td>إن كان النسخ الاحتياطي مفعّلًا في جهازك، تُنسخ بيانات التطبيق المحفوظة محليًا ضمن نسخة جهازك إلى حسابك في <span class="ltr">iCloud</span>. هذه ميزة من نظام <span class="ltr">iOS</span> ويمكنك إيقافها من <span class="ltr">الإعدادات ← [اسمك] ← iCloud</span>.</td>
+            </tr>
+            <tr>
+              <td><span class="ltr">Telegram</span> (اختياري تمامًا)</td>
+              <td>إن اخترت إرسال ملاحظة عبر زر التواصل، يفتح التطبيق <span class="ltr">Telegram</span> على حساب البوت الخاص بنا. تصلنا رسالتك، ومعها اسمك المعروض ومعرّفك في <span class="ltr">Telegram</span> — إلا إذا اخترت الإرسال «مجهولًا»، فلا يصلنا أي منهما. لا نحفظ هذه الرسائل في قاعدة بياناتنا.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>لا يحتوي التطبيق على أي حزمة إعلانات أو تحليلات أو تتبّع أو تقارير أعطال من طرف ثالث. وزر «الاتجاهات» يفتح تطبيق الخرائط لديك على إحداثيات <em>المسجد</em>، ولا يرسل موقعك أنت إلى أي جهة.</p>
+
+      <h2>البيانات المحفوظة على جهازك</h2>
+      <p>تُحفظ محليًا: المساجد المحفوظة والدروس المتابَعة، وآخر موقع معروف (لتفادي انتظار تحديد الموقع عند كل فتح)، ونسخة مؤقتة من نتائج آخر بحث لتسريع العرض، وإعدادات بسيطة مثل ما إذا كنت قد شاهدت شاشة الترحيب، والمعرّف العشوائي للبلاغات. تُحذف هذه البيانات جميعها بحذف التطبيق.</p>
+      <!-- SHIPPED-BUILD ACCURATE (<=1.8.x). From the build that moves the report id
+           into the Keychain and the last-known fix into Caches, swap this paragraph for:
+           "لا يشمل النسخ الاحتياطي لجهازك المعرّف العشوائي ولا آخر موقع معروف؛ كلاهما
+           مستثنى عمدًا كما في نسخة أندرويد." Same swap in the EN block below. -->
+      <p>يشمل النسخ الاحتياطي لجهازك في <span class="ltr">iCloud</span> هذه الإعدادات المحلية — بما فيها المعرّف العشوائي وآخر موقع معروف — إن كان النسخ الاحتياطي مفعّلًا. تبقى هذه النسخة داخل حسابك أنت، ولا نصل إليها.</p>
+
+      <h2>الإشعارات</h2>
+      <p>عند «متابعة» درس، يجدول التطبيق تذكيرًا <strong>محليًا على جهازك</strong> قبل ١٥ دقيقة من موعد الدرس. لا تمرّ هذه التذكيرات عبر أي خادم إشعارات، ولا نعرف نحن ما الدروس التي تتابعها.</p>
+
+      <h2>الاحتفاظ بالبيانات وحذفها</h2>
+      <ul>
+        <li>حذف التطبيق يمحو كل ما هو محفوظ على الجهاز. لإزالة النسخة الاحتياطية أيضًا، أوقف النسخ الاحتياطي أو احذف بيانات التطبيق من <span class="ltr">iCloud</span>.</li>
+        <li>البلاغات التي ترسلها تُحفظ للمراجعة وتصحيح بيانات الخريطة. لطلب حذف بلاغ أرسلته، راسلنا على <span class="ltr">darsmap@codekiu.com</span>.</li>
+        <li>السجلّ التقني الموجز الموصوف أعلاه لا يحتوي على ما يمكن ربطه بك، ولذلك لا يمكن «حذف سجلّك» لأنه لا يوجد سجلّ باسمك أصلًا.</li>
+      </ul>
+
+      <h2>حقوقك</h2>
+      <p>لأننا لا نحتفظ بأي بيانات تعرّفك، لا توجد لدينا نسخة منك لتطلب الاطّلاع عليها أو تصحيحها. الاستثناء الوحيد هو بلاغ أرسلته بنفسك، ويمكنك طلب حذفه بالبريد أعلاه. ولأي سؤال أو شكوى تتعلّق بالخصوصية، راسلنا وسنردّ.</p>
 
       <h2>خصوصية الأطفال</h2>
-      <p>لا يستهدف تطبيق مجالس العلم الأطفال دون سن 13 عامًا، ولا يجمع عن قصد بيانات من هذه الفئة العمرية.</p>
+      <p>لا يستهدف تطبيق مجالس العلم الأطفال دون سن ١٣ عامًا، ولا يجمع عن قصد بيانات من هذه الفئة العمرية.</p>
 
       <h2>التغييرات على هذه السياسة</h2>
-      <p>قد يتم تحديث هذه السياسة من حين لآخر. سيتم تحديث تاريخ "آخر تحديث" أعلى الصفحة عند إجراء أي تغييرات جوهرية.</p>
+      <p>قد تُحدَّث هذه السياسة من حين لآخر، وسيتغيّر تاريخ «آخر تحديث» أعلى الصفحة عند أي تغيير جوهري.</p>
 
       <h2>التواصل معنا</h2>
       <p>لأي استفسار حول الخصوصية، يمكنك التواصل مع المطوّر <span dir="ltr">Jesus Copado Espejo</span> عبر البريد الإلكتروني: <span dir="ltr">darsmap@codekiu.com</span></p>
@@ -318,41 +468,125 @@ body {
 
     <div class="lang-divider"></div>
 
+    <!-- ============================== ENGLISH ============================== -->
     <div class="section section-en" lang="en">
       <div class="identity">
         <dl>
           <dt>App name</dt>
           <dd>مجالس العلم (Majalis Al-Ilm)</dd>
           <dt>Application ID</dt>
-          <dd>com.darsmap.app</dd>
+          <dd><code>com.darsmap.app</code></dd>
           <dt>Developer / publisher</dt>
           <dd>Jesus Copado Espejo</dd>
+          <dt>Platform</dt>
+          <dd>iOS — App Store</dd>
           <dt>Contact email</dt>
           <dd>darsmap@codekiu.com</dd>
           <dt>Last updated</dt>
-          <dd>16 August 2026</dd>
+          <dd>21 August 2026</dd>
         </dl>
       </div>
 
-      <h2>Privacy Policy</h2>
-      <p>This Privacy Policy applies to the mobile application <strong>مجالس العلم (Majalis Al-Ilm)</strong>, application ID <strong>com.darsmap.app</strong>, published on Google Play and the App Store by <strong>Jesus Copado Espejo</strong>. The app respects your privacy, and this policy explains what data it collects and how that data is used.</p>
+      <h2>Scope of This Policy</h2>
+      <p>This Privacy Policy applies to the <strong>iOS version</strong> of <strong>مجالس العلم (Majalis Al-Ilm)</strong>, application ID <code>com.darsmap.app</code>, published on the App Store by Jesus Copado Espejo. The Android version is covered by the <a href="android-privacy.html">Android privacy policy</a>.</p>
 
-      <h2>Data We Collect</h2>
-      <p>مجالس العلم (Majalis Al-Ilm) uses your <strong>precise location</strong> only to show nearby mosques and classes sorted by distance, and to calculate prayer times for your location. No other personal data is collected — the app has no login or user account.</p>
+      <h2>Summary</h2>
+      <div class="callout">
+        <p>No account and no sign-in. No advertising. No third-party analytics, tracking, or crash-reporting SDKs. We do not sell your data or share it for advertising. The app never asks for your name, email, or phone number. <strong>We do not log or retain your IP address.</strong></p>
+      </div>
 
-      <h2>How Location Is Used</h2>
+      <h2>Permissions the App Requests</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Permission</th><th>Why it is used</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Location (When In Use)</td>
+              <td>To show the mosques and classes nearest to you sorted by distance, and to calculate prayer times. <strong>Optional</strong> — you may decline it and the app keeps working, with manual search instead of proximity sorting.</td>
+            </tr>
+            <tr>
+              <td>Notifications</td>
+              <td>Requested when you first "follow" a class, to show a reminder 15 minutes before it starts. Reminders are entirely local to your device.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>The app never requests Always (background) location and does not track your location while it is closed. It does not use the advertising identifier (IDFA) and does not present the App Tracking Transparency prompt, because it does no tracking at all.</p>
+
+      <h2>Data That Leaves Your Device</h2>
       <ul>
-        <li>Location data is not linked to your identity.</li>
-        <li>Location data is never used for tracking or advertising.</li>
-        <li>Location data is never shared with third parties.</li>
-        <li>You can disable location permission at any time in your device settings; the app continues to work with reduced functionality (manual search instead of proximity sorting).</li>
+        <li><strong>Your coordinates</strong>: sent to the app's server to run the "nearby classes" query and return results. These queries are not tied to any account or identity — the app has no accounts — and your coordinates are never written to the database or to server logs. Prayer times are calculated <strong>on your device</strong>; your location is never sent to any external prayer-time service.</li>
+        <li><strong>Reporting an incorrect mosque location</strong> (only if you choose to): the report sends the mosque's ID, the corrected coordinates you picked, your written note if you added one, and a <strong>random per-installation identifier</strong> used solely to limit abusive repeat submissions on the server. This is the only thing the app ever writes to our database.</li>
+        <li><strong>Update check</strong>: the app asks the App Store which version is current. Only the application ID is sent, and Apple receives — as with any internet request — your IP address.</li>
+      </ul>
+      <div class="callout">
+        <p>The random identifier is generated inside the app (a UUID) on first use. It is <strong>not</strong> an advertising identifier, not the IDFA, not the IDFV, and not any stable device identifier, and it cannot be linked back to you.</p>
+      </div>
+
+      <h2>What We Do Not Keep</h2>
+      <ul>
+        <li><strong>We do not keep IP addresses.</strong> The reverse proxy in front of our server has request logging switched off entirely, and the database records neither connections nor statements.</li>
+        <li><strong>We do not keep your coordinates.</strong> They are used at the moment the query runs to compute your results, and then they are gone. They are written to no table and no log.</li>
+        <li>Our API layer keeps a very brief technical line per request: the time, the request type, its result, and the app/OS identification string. <strong>It contains no address, no location, and no identifier belonging to you.</strong></li>
       </ul>
 
-      <h2>Notifications</h2>
-      <p>When you "follow" a class, the app schedules a weekly reminder <strong>locally on your device</strong>, 15 minutes before the class starts. These reminders are not sent through any external server and require no data sharing with third parties.</p>
+      <h2>Where Your Data Is Processed</h2>
+      <p>The app's API and database run on our own server at Hetzner in <strong>Nuremberg, Germany</strong>. The database holds mosque, class, and teacher listings — public reference data, not user data — plus the location-correction reports described above.</p>
 
-      <h2>Local Storage</h2>
-      <p>Mosques and classes you "favorite" or "follow" are saved locally on your device. Mosque and class listing data (names, schedules, general coordinates) is retrieved from the app's backend to display in the app, and is not linked to any personal identifier of yours.</p>
+      <h2>Third Parties That Process Data</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Party</th><th>What it receives</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Hetzner (our hosting)</td>
+              <td>Operates the server our database and API run on, purely as an infrastructure provider. It does not access request content for its own purposes.</td>
+            </tr>
+            <tr>
+              <td>Apple — Maps (MapKit)</td>
+              <td>Renders the map screen inside the app. When you open the map, Apple receives map requests for the area being displayed, under Apple's own privacy policy. We send it no identifier belonging to you.</td>
+            </tr>
+            <tr>
+              <td>Apple — App Store</td>
+              <td>Receives the version check described above.</td>
+            </tr>
+            <tr>
+              <td>Apple — iCloud Backup</td>
+              <td>If backup is enabled on your device, the app's locally stored data is included in your device backup in your iCloud account. This is an iOS feature you can disable under Settings → [your name] → iCloud.</td>
+            </tr>
+            <tr>
+              <td>Telegram (entirely optional)</td>
+              <td>If you choose to send feedback via the contact button, the app opens Telegram at our bot. We receive your message along with your display name and Telegram handle — unless you choose to send it "anonymously", in which case we receive neither. We do not store these messages in our database.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>The app contains no advertising, analytics, tracking, or crash-reporting SDK of any kind. The "Directions" button opens your maps app at the <em>mosque's</em> coordinates; it sends your own location to no one.</p>
+
+      <h2>Data Stored On Your Device</h2>
+      <p>Stored locally: your saved mosques and followed classes, your last known location (so the app need not wait for a fix on every launch), a short-lived copy of your most recent results for fast display, simple settings such as whether you have seen the welcome screen, and the random reporting identifier. Deleting the app erases all of it.</p>
+      <!-- SHIPPED-BUILD ACCURATE (<=1.8.x). From the build that moves the report id
+           into the Keychain and the last-known fix into Caches, swap this paragraph for:
+           "Your device's iCloud backup excludes the random identifier and the last known
+           location; both are deliberately left out, as on Android." -->
+      <p>Your device's iCloud backup includes these local settings — including the random identifier and the last known location — if backup is enabled. That copy stays within your own account; we have no access to it.</p>
+
+      <h2>Notifications</h2>
+      <p>When you "follow" a class, the app schedules a reminder <strong>locally on your device</strong>, 15 minutes before the class starts. These reminders pass through no notification server, and we do not know which classes you follow.</p>
+
+      <h2>Data Retention and Deletion</h2>
+      <ul>
+        <li>Deleting the app erases everything stored on the device. To remove the backup too, disable backup or delete the app's data from iCloud.</li>
+        <li>Reports you submit are kept for review and to correct map data. To request deletion of a report you sent, write to darsmap@codekiu.com.</li>
+        <li>The brief technical log described above contains nothing that can be linked to you, so there is no record in your name to delete.</li>
+      </ul>
+
+      <h2>Your Rights</h2>
+      <p>Because we hold no data that identifies you, we have no copy of you to give you access to or to correct. The one exception is a report you submitted yourself, which you can ask us to delete at the address above. For any privacy question or complaint, write to us and we will respond.</p>
 
       <h2>Children's Privacy</h2>
       <p>مجالس العلم (Majalis Al-Ilm) does not target children under 13 and does not knowingly collect data from this age group.</p>
@@ -366,10 +600,10 @@ body {
 
   </div>
 
-  <div class="updated">Last updated: 16 August 2026 &middot; آخر تحديث</div>
+  <div class="updated">Last updated: 21 August 2026 &middot; آخر تحديث</div>
 
   <div class="footer">
-    <p>مجالس العلم (Majalis Al-Ilm) &middot; com.darsmap.app &middot; &copy; Jesus Copado Espejo</p>
+    <p>مجالس العلم (Majalis Al-Ilm) &middot; com.darsmap.app &middot; iOS &middot; &copy; Jesus Copado Espejo</p>
   </div>
 
   <div style="text-align:center; padding: 24px;">
